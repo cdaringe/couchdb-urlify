@@ -1,12 +1,21 @@
 {
   "name": "couchdb-urlify",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Convert, assert, or validate URLs to ensure that they are compatible with couchdb! Does the above tasks according to the CouchDB rules!",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "preversion": "git checkout master && git pull && npm ls",
+    "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish",
+    "publish-minor": "npm run preversion && npm version minor && git push origin master --tags && npm publish",
+    "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish"
   },
-  "author": "",
+  "homepage": "https://github.com/cdaringe/couchdb-urlify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdaringe/couchdb-urlify.git"
+  },
+  "author": "cdaringe",
   "license": "MIT",
   "dependencies": {
     "tape": "^4.2.1",
