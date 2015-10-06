@@ -1,0 +1,15 @@
+{
+  "name": "couchdb-urlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.2.1",
+    "url": "^0.11.0"
+  }
+}
