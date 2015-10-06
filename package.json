@@ -1,6 +1,6 @@
 {
   "name": "couchdb-urlify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert, assert, or validate URLs to ensure that they are compatible with couchdb! Does the above tasks according to the CouchDB rules!",
   "main": "index.js",
   "scripts": {
