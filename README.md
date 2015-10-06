@@ -1,3 +1,5 @@
+[ ![Codeship Status for cdaringe/couchdb-urlify](https://codeship.com/projects/0713cf60-4e2a-0133-ff9e-524cf6105349/status?branch=master)](https://codeship.com/projects/106786)
+
 # couchdb-urlify
 Convert, assert, or validate URLs to ensure that they are compatible with couchdb!
 Does the above tasks according to the [CouchDB rules](https://wiki.apache.org/couchdb/HTTP_database_API#Naming_and_Addressing)!
